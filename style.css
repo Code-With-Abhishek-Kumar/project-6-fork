@@ -139,13 +139,13 @@ align-items: center;
     overflow-y: hidden;
     
 }
-#container{
+.container{
     height: 90%;
     width: 110%;
     display: inline-block;
-    padding:1vw;
+    padding:0.5vw;
     animation-name:anime;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
@@ -255,13 +255,18 @@ width: 50%;
 #textphoto{
     position: relative;
     height: 50px;
+
     background-color: red;
     right: 137%;
     margin-top: -210px;
 }
+
+
+
+
 #blackwhite img{
-    height: 51%;
-    width: 44%;
+    height: 40%;
+    width: 40%;
     position: cover;
     position: absolute;
     padding:50px 0px;
