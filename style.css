@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 'border-box';
+    font-family: 'gilroy'
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    background-color:#f8f8f8;
+}
+#main{
+    height:100%;
+    width:91%;
+    position:relative;
+    padding-top: 0.1px;
+    background-color: #f8f8f8;
+}
+
+#nav{
+    height: 11vh;
+    width: 109%;
+    margin-top:40px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav h1{
+   height: 100%;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: monument;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+#nav h2{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-right:2px solid #000;
+    font-size: 26px;
+    font-weight: 600;
+}
+#nav h2:nth-last-child(1){
+    width: 29%;
+}
+#nav h2:nth-last-child(2){
+    width: 29%;
+}
+#center{
+    height:90%;
+    width:100%;
+      position: relative;
+      padding: 2.5vw;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+#content video{
+    height: 100%;
+    width:105%;
+    object-fit: cover;
+
+}
+#overlay{
+    height: 30%;
+    width:98.3%;
+    position: absolute;
+    bottom: 0;
+    padding: 3vw;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.644); 
+}
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom: 2vw;
+}
+#over2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #fff;
+    padding: 1.5vw 0;
+
+}
+#over1 h1{
+    font-family: monument;
+    font-size: 3.6vw;   
+    
+}
+#over1 h2{
+ width:100px;
+ height:100px;
+ background-color: red;
+ border-radius: 50%;
+position: relative;
+left: -60px;
+font-size: 40px;
+margin:0;
+display: flex;
+justify-content: center;
+align-items: center;
+  
+
+    
+}
+
+#over2 h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#over2 img{
+    height: 3vw;
+    margin-left: 15px;
+    padding: 5px 60px;
+    ;
+}
+#scroll{
+    height: 40vh;
+    width: 105%;
+ 
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+#container{
+    height: 90%;
+    width: 110%;
+    display: inline-block;
+    padding:1vw;
+    animation-name:anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+#scroll img{
+  
+    height: 95%;
+    border-radius: 50%;
+    width:14%;
+    margin: 1vw;
+     object-fit:cover;
+     object-position:30% 30%;
+       
+}
+@keyframes anime {
+    from{
+        transform:translateX(0);
+
+    }
+    to{
+        transform: translateX(-100%);
+
+    }
+}
+#alphabet{
+    height: 10vh;
+    width: 105%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    border-top: 2px solid #000;
+    border-bottom:2px solid #000;
+}
+
+#alphabet h5{
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #000;
+    margin-right: 2vw;
+   
+}  
+#alphabet h6{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    padding: 0.5vw 0.7vw;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #00000000;
+    transition: all ease 0.2s;
+}  
+#alphabet h6:hover{
+    border:1px solid #000000f5;
+}
+#page2{
+    height: 100%;
+                                        width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+
+
+}
+#page2-part1{
+    height: 110%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1573275048283-c4945bdedbe7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D);
+ background-size: cover;
+ background-position: center;
+}
+#page2-part2{
+    height: 110%;
+    width: 46%;
+}
+#page2-part2img{
+    height: 70%;
+   
+    object-fit: cover;
+}
+#paragraph h1{
+   display: flex;
+   padding: 0% 20%;
+   object-position: 90vw;
+   background-color: rgba(16, 11, 182, 0.355);
+   width: 56%;
+
+
+}
+#paragraph h2{
+    display: flex;
+    font-size: 20px;
+    justify-content:flex-end;
+padding: 5px 26%;
+background-color: rgba(0, 21, 255, 0.501);
+align-items: flex-start;
+object-position: 90%;
+width: 50%;
+}
+#textphoto{
+    position: relative;
+    height: 50px;
+    background-color: red;
+    right: 137%;
+    margin-top: -210px;
+}
+#blackwhite img{
+    height: 51%;
+    width: 44%;
+    position: cover;
+    position: absolute;
+    padding:50px 0px;
+}
+#rohit img{
+    height: 200%;
+    width: 150%;
+    position:relative;
+    padding: 35px 58%;
+    font-size: large;
+}
+#page3{
+    height: 150%;
+    width: 234%;
+    position: relative;
+    padding: 5vw 4vw;
+}
+#page3>h1{
+    text-align: center;
+    font-family: monument;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin-bottom:5vh ;
+}
+.elem{
+    height: 15.5vh;
+    width: 98%;
+    border-top:2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 2vw;
+    position: relative;
+    transition: all ease 0,7s;
+
+   
+
+}
+.elem img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    left: 12%;
+    opacity: 0;
+    transition: all ease 0.7s;
+    object-position: top;
+    transition: all ease 0,7s;
+}
+
+.elem h4{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    width:7%;
+}
+
+.elem-part2{
+    width: 45%;
+
+}
+.elem-part2 h1{
+    font-weight: 500;
+    font-size: 3vw;
+
+}
+.elem-part2 h5{
+    font-weight: 600;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+
+}
+
+.elem:nth-last-child(1){
+    border-bottom: 2px solid #000;
+
+}
+.elem:hover img{
+    opacity: 1;
+    left: 24%;
+}
+
+.elem:hover {
+    background-color: #c7c3c3;
+}
+#marque{
+    height:20vh;
+    width: 100%;
+    background-color: red;
+}
