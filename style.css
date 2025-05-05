@@ -262,6 +262,13 @@ align-items: center;
  
 }
 
+
+#rohit{
+    width: 100%;
+    height: 100%;
+    background: rgb(124, 80, 80);
+}
+
 #paragraph h1{
 
 position: absolute;
@@ -316,11 +323,14 @@ object-position: 90%;
     font-size: large;
 }
 #page3{
-    height: 150%;
-    width: 234%;
+    height: 100vh;
+    width: 150vw;
+   color: #000;
     position: relative;
     padding: 5vw 4vw;
 }
+
+
 #page3>h1{
     text-align: center;
     font-family: monument;
@@ -329,11 +339,12 @@ object-position: 90%;
     margin-bottom:5vh ;
 }
 .elem{
-    height: 15.5vh;
-    width: 98%;
+    height: 20vh;
+    width: 77%;
     border-top:2px solid #000;
     display: flex;
     align-items: center;
+    overflow: hidden;
     justify-content:space-between;
     padding: 0 2vw;
     position: relative;
@@ -343,8 +354,8 @@ object-position: 90%;
 
 }
 .elem img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     position: absolute;
     border-radius: 50%;
     left: 12%;
